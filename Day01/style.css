@@ -1,0 +1,43 @@
+
+
+:root{
+    /*Variáveis de Fonte*/
+    --OpenSans:'Open-Sans', Sans-Serif;
+
+    /*Variáveis de Cor*/
+    --roxo: #433a9f;
+    --ciano: #4ec0c8;
+    --branco: #fff;
+}
+
+main{
+    padding: 0px;
+    margin: 0px;
+}
+
+section{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+
+    background-image: -moz-linear-gradient(45deg, var(--roxo), var(--ciano));
+    
+    display: block;
+}
+
+h1, h2, p{
+    font-family: var(--OpenSans);
+    color: var(--branco);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 70px;
+}
